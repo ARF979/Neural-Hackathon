@@ -1,0 +1,20 @@
+# Backend Dependencies for AI Social Media Generator
+
+# FastAPI and Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# AI/ML Libraries
+torch==2.6.0
+transformers==4.46.3
+accelerate==1.11.0
+
+# LangChain and Graph
+langchain
+langchain-core
+langchain-huggingface
+langgraph
+
+# Utilities
+python-dotenv==1.0.0
